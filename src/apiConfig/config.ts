@@ -11,7 +11,7 @@ const configSwitcher = (environmentType: string) => {
         ImageUrl: `http://localhost:3000`,
       };
       break;
-    case "https://blogs-next-js-iota.vercel.app/":
+    case "blogs-next-js-iota.vercel.app":
       configuration = {
         API_URL: `https://blogs-next-js-iota.vercel.app/api/`,
         ImageUrl: `https://blogs-next-js-iota.vercel.app`,
